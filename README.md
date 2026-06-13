@@ -1,8 +1,9 @@
-# PizzaCap Website
+<img width="1006" height="684" alt="image" src="https://github.com/user-attachments/assets/a25da4fa-3b9c-48c0-b368-e8508d0f32d4" /># PizzaCap Website
 A full-stack web app for sharing pizza recipes, ingredients, and user-created content.
 
 ## Screenshot/Logo
-Add a screenshot of the app here.
+<img width="1006" height="684" alt="image" src="https://github.com/user-attachments/assets/a7307eaa-ebe3-4931-8c1e-7bddb9eecbac" />
+
 
 ## Description
 PizzaCap Website is a full-stack project built with Express, MongoDB, EJS, and JavaScript. The app allows users to create accounts, sign in, and manage pizza-related content such as recipes and ingredients.
@@ -11,7 +12,7 @@ This project was a good way to practice authentication, CRUD functionality, work
 
 ## Deployment Link
 **Live App:**  
-Add your deployed link here.
+https://general-assembly-app-5d60d220519e.herokuapp.com/
 
 ## Planning
 Before building, the main focus was deciding how users would interact with recipes and ingredients in the app.
