@@ -1,4 +1,4 @@
-<img width="1006" height="684" alt="image" src="https://github.com/user-attachments/assets/a25da4fa-3b9c-48c0-b368-e8508d0f32d4" /># PizzaCap Website
+
 A full-stack web app for sharing pizza recipes, ingredients, and user-created content.
 
 ## Screenshot/Logo
