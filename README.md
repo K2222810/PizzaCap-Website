@@ -1,47 +1,86 @@
-# intro-to-sql-lab-starter-code
+# PizzaCap Website
+A full-stack web app for sharing pizza recipes, ingredients, and user-created content.
 
-A SQL lab starter repo (Carmen Sandiego mystery) for practicing querying a relational dataset.
+## Screenshot/Logo
+Add a screenshot of the app here.
 
-## ✨ Technologies
+## Description
+PizzaCap Website is a full-stack project built with Express, MongoDB, EJS, and JavaScript. The app allows users to create accounts, sign in, and manage pizza-related content such as recipes and ingredients.
 
-- **SQL**
-- A relational database (commonly PostgreSQL)
-- Provided dataset files:
-  - `world.sql`
-  - `clues.sql`
+This project was a good way to practice authentication, CRUD functionality, working with databases, and building a server-rendered web app with user-based features.
 
-## 🚀 Features
+## Deployment Link
+**Live App:**  
+Add your deployed link here.
 
-- Step-by-step mystery prompts (clues) to guide query writing
-- Practice:
-  - `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`
-  - `JOIN`
-  - filtering + matching (`ILIKE`)
+## Planning
+Before building, the main focus was deciding how users would interact with recipes and ingredients in the app.
 
-## 🛠️ The Process
+Planning included:
 
-1. Load the provided dataset (`world.sql`) into your database.
-2. Open `clues.sql` and write queries under each clue.
-3. Execute queries to reveal the next destination / answer.
+- Deciding on the main models for users, recipes, and ingredients
+- Planning login and signup flow
+- Structuring CRUD features for recipes
+- Thinking about how ingredients would connect to recipes
+- Organising routes, controllers, and views clearly
 
-## ▶️ Running the Project
+## Brief
+The goal of this project was to build a full-stack web application with authentication and CRUD features.
 
-### Example (PostgreSQL)
+The app needed to let users create and manage content, work with related data, and practice building a more complete Express and MongoDB application.
 
-1. Create a database:
+## Build Process
+The project started with setting up the Express server, MongoDB connection, and session-based authentication. After that, the main models and controllers were built for users, recipes, and ingredients.
 
-```bash
-createdb world
-```
+Once the core structure was working, views and routes were added so users could interact with the app through forms and pages. Middleware was also added to handle login protection and user access across the site.
 
-2. Load the dataset:
+## Technologies Used
+**Back End**
+- Node.js
+- Express
+- MongoDB
+- Mongoose
 
-```bash
-psql -d world -f world.sql
-```
+**Front End**
+- EJS
+- HTML
+- CSS
+- JavaScript
 
-3. Run your clue queries:
+**Other Tools & Practices**
+- Session authentication
+- CRUD operations
+- Method Override
+- Express middleware
 
-```bash
-psql -d world -f clues.sql
-```
+## Key Highlights
+- User signup and login system
+- Full CRUD functionality
+- Separate models for users, recipes, and ingredients
+- Protected routes for signed-in users
+- Server-rendered pages using EJS
+
+## Challenges
+- Managing authentication and sessions correctly
+- Connecting recipes and ingredients clearly
+- Organising controllers, models, and routes
+- Making sure only signed-in users could access protected parts of the app
+
+## Wins
+- Built a full-stack app with multiple connected features
+- Improved my understanding of Express and MongoDB
+- Practiced authentication and protected routes
+- Created a project with a clear theme and purpose
+
+## Key Learnings / Takeaways
+- Better understanding of full-stack Express app structure
+- More confidence with Mongoose models and database relationships
+- Improved knowledge of session-based authentication
+- Learned how to organise a larger project more clearly
+
+## Things I Could Have Done Better
+- I could have improved the visual design more
+- I could have made the recipe pages more detailed
+- I could have added better search or filtering features
+- I could have improved the user experience across the site
+- I could have made the app feel more polished overall
